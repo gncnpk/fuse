@@ -1,0 +1,514 @@
+[
+  {
+    "cluster_build_costs_per_grade": [
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 8100000,
+            "resource_a_count": 0,
+            "resource_a_id": -1,
+            "resource_b_count": 0,
+            "resource_b_id": -1,
+            "time_minute": 0
+          },
+          {
+            "gmp": 9000000,
+            "resource_a_count": 100000,
+            "resource_a_id": 3,
+            "resource_b_count": 100000,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 10890000,
+            "resource_a_count": 245200,
+            "resource_a_id": 3,
+            "resource_b_count": 245200,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          },
+          {
+            "gmp": 12960000,
+            "resource_a_count": 330400,
+            "resource_a_id": 3,
+            "resource_b_count": 330400,
+            "resource_b_id": 0,
+            "time_minute": 7200
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 2,
+            "resource_b_count": 10200,
+            "resource_b_id": 0,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 2,
+            "resource_b_count": 38100,
+            "resource_b_id": 0,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 2,
+            "resource_b_count": 208800,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 2,
+            "resource_b_count": 283600,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 2,
+            "resource_b_count": 10200,
+            "resource_b_id": 0,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 2,
+            "resource_b_count": 38100,
+            "resource_b_id": 0,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 2,
+            "resource_b_count": 208800,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 2,
+            "resource_b_count": 283600,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 1,
+            "resource_b_count": 10200,
+            "resource_b_id": 0,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 1,
+            "resource_b_count": 38100,
+            "resource_b_id": 0,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 1,
+            "resource_b_count": 208800,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 1,
+            "resource_b_count": 283600,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 2,
+            "resource_b_count": 10200,
+            "resource_b_id": 1,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 2,
+            "resource_b_count": 38100,
+            "resource_b_id": 1,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 2,
+            "resource_b_count": 208800,
+            "resource_b_id": 1,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 2,
+            "resource_b_count": 283600,
+            "resource_b_id": 1,
+            "time_minute": 5760
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 2,
+            "resource_b_count": 10200,
+            "resource_b_id": 0,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 2,
+            "resource_b_count": 38100,
+            "resource_b_id": 0,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 2,
+            "resource_b_count": 208800,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 2,
+            "resource_b_count": 283600,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 1620000,
+            "resource_a_count": 10200,
+            "resource_a_id": 1,
+            "resource_b_count": 10200,
+            "resource_b_id": 0,
+            "time_minute": 360
+          },
+          {
+            "gmp": 2000000,
+            "resource_a_count": 38100,
+            "resource_a_id": 1,
+            "resource_b_count": 38100,
+            "resource_b_id": 0,
+            "time_minute": 720
+          },
+          {
+            "gmp": 2420000,
+            "resource_a_count": 208800,
+            "resource_a_id": 1,
+            "resource_b_count": 208800,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 2880000,
+            "resource_a_count": 283600,
+            "resource_a_id": 1,
+            "resource_b_count": 283600,
+            "resource_b_id": 0,
+            "time_minute": 5760
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_build_costs_per_grade": [
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 19600000,
+            "resource_a_count": 0,
+            "resource_a_id": -1,
+            "resource_b_count": 0,
+            "resource_b_id": -1,
+            "time_minute": 0
+          },
+          {
+            "gmp": 15525000,
+            "resource_a_count": 225000,
+            "resource_a_id": 3,
+            "resource_b_count": 225000,
+            "resource_b_id": 0,
+            "time_minute": 7200
+          },
+          {
+            "gmp": 17664000,
+            "resource_a_count": 460800,
+            "resource_a_id": 3,
+            "resource_b_count": 460800,
+            "resource_b_id": 0,
+            "time_minute": 11520
+          },
+          {
+            "gmp": 21675000,
+            "resource_a_count": 693600,
+            "resource_a_id": 3,
+            "resource_b_count": 693600,
+            "resource_b_id": 0,
+            "time_minute": 21600
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 2,
+            "resource_b_count": 12000,
+            "resource_b_id": 0,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 2,
+            "resource_b_count": 41600,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 2,
+            "resource_b_count": 280000,
+            "resource_b_id": 0,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 2,
+            "resource_b_count": 450000,
+            "resource_b_id": 0,
+            "time_minute": 14400
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 2,
+            "resource_b_count": 12000,
+            "resource_b_id": 0,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 2,
+            "resource_b_count": 41600,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 2,
+            "resource_b_count": 280000,
+            "resource_b_id": 0,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 2,
+            "resource_b_count": 450000,
+            "resource_b_id": 0,
+            "time_minute": 14400
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 1,
+            "resource_b_count": 12000,
+            "resource_b_id": 0,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 1,
+            "resource_b_count": 41600,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 1,
+            "resource_b_count": 280000,
+            "resource_b_id": 0,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 1,
+            "resource_b_count": 450000,
+            "resource_b_id": 0,
+            "time_minute": 14400
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 2,
+            "resource_b_count": 12000,
+            "resource_b_id": 1,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 2,
+            "resource_b_count": 41600,
+            "resource_b_id": 1,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 2,
+            "resource_b_count": 291200,
+            "resource_b_id": 1,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 2,
+            "resource_b_count": 468000,
+            "resource_b_id": 1,
+            "time_minute": 14400
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 2,
+            "resource_b_count": 12000,
+            "resource_b_id": 0,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 2,
+            "resource_b_count": 41600,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 2,
+            "resource_b_count": 280000,
+            "resource_b_id": 0,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 2,
+            "resource_b_count": 450000,
+            "resource_b_id": 0,
+            "time_minute": 14400
+          }
+        ]
+      },
+      {
+        "cluster_build_costs": [
+          {
+            "gmp": 3024000,
+            "resource_a_count": 12000,
+            "resource_a_id": 1,
+            "resource_b_count": 12000,
+            "resource_b_id": 0,
+            "time_minute": 1440
+          },
+          {
+            "gmp": 3549000,
+            "resource_a_count": 41600,
+            "resource_a_id": 1,
+            "resource_b_count": 41600,
+            "resource_b_id": 0,
+            "time_minute": 4320
+          },
+          {
+            "gmp": 4116000,
+            "resource_a_count": 291200,
+            "resource_a_id": 1,
+            "resource_b_count": 280000,
+            "resource_b_id": 0,
+            "time_minute": 10080
+          },
+          {
+            "gmp": 4725000,
+            "resource_a_count": 468000,
+            "resource_a_id": 1,
+            "resource_b_count": 450000,
+            "resource_b_id": 0,
+            "time_minute": 14400
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "normal_defense_same_time_bonus": [
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700
+  ],
+  "normal_sneak_same_time_bonus": [
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1750,
+    2000
+  ],
+  "one_event_param": [
+    {
+      "event_id": 4,
+      "event_sneak_clear_point_max": 3000,
+      "event_sneak_clear_point_min": 30,
+      "event_sneak_same_time_bonus": [
+        1000,
+        1100,
+        1200,
+        1300,
+        1400,
+        1500,
+        1750,
+        2000
+      ]
+    },
+    {
+      "event_id": 24,
+      "event_sneak_clear_point_max": 3000,
+      "event_sneak_clear_point_min": 100,
+      "event_sneak_same_time_bonus": [
+        1000,
+        1300,
+        1400,
+        1500,
+        1600,
+        1800,
+        2100,
+        2800
+      ]
+    }
+  ]
+}

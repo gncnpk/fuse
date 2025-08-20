@@ -1,0 +1,138 @@
+{
+  "normal_defense": [
+    {
+      "reward": 2000,
+      "task_type_id": 79,
+      "threshold": 1
+    },
+    {
+      "reward": 4000,
+      "task_type_id": 78,
+      "threshold": 1
+    },
+    {
+      "reward": 500,
+      "task_type_id": 96,
+      "threshold": 1
+    },
+    {
+      "reward": 500,
+      "task_type_id": 97,
+      "threshold": 5
+    }
+  ],
+  "normal_sneak": [
+    {
+      "reward": 2000,
+      "task_type_id": 10,
+      "threshold": 10
+    },
+    {
+      "reward": 1000,
+      "task_type_id": 8,
+      "threshold": 5
+    },
+    {
+      "reward": 2000,
+      "task_type_id": 69,
+      "threshold": 1
+    },
+    {
+      "reward": 4000,
+      "task_type_id": 41,
+      "threshold": 1
+    }
+  ],
+  "one_event_task": [
+    {
+      "event_id": 4,
+      "event_sneak": [
+        {
+          "reward": 300,
+          "task_type_id": 3,
+          "threshold": 1
+        },
+        {
+          "reward": 350,
+          "task_type_id": 37,
+          "threshold": 60
+        },
+        {
+          "reward": 600,
+          "task_type_id": 2,
+          "threshold": 1
+        },
+        {
+          "reward": 1160,
+          "task_type_id": 8,
+          "threshold": 8
+        },
+        {
+          "reward": 2020,
+          "task_type_id": 9,
+          "threshold": 1
+        },
+        {
+          "reward": 1100,
+          "task_type_id": 67,
+          "threshold": 1
+        },
+        {
+          "reward": 1400,
+          "task_type_id": 69,
+          "threshold": 1
+        },
+        {
+          "reward": 2100,
+          "task_type_id": 74,
+          "threshold": 1
+        }
+      ]
+    },
+    {
+      "event_id": 24,
+      "event_sneak": [
+        {
+          "reward": 660,
+          "task_type_id": 3,
+          "threshold": 2
+        },
+        {
+          "reward": 580,
+          "task_type_id": 37,
+          "threshold": 90
+        },
+        {
+          "reward": 1320,
+          "task_type_id": 2,
+          "threshold": 2
+        },
+        {
+          "reward": 2610,
+          "task_type_id": 8,
+          "threshold": 15
+        },
+        {
+          "reward": 3030,
+          "task_type_id": 9,
+          "threshold": 1
+        },
+        {
+          "reward": 1650,
+          "task_type_id": 67,
+          "threshold": 1
+        },
+        {
+          "reward": 2100,
+          "task_type_id": 69,
+          "threshold": 1
+        },
+        {
+          "reward": 3150,
+          "task_type_id": 74,
+          "threshold": 1
+        }
+      ]
+    }
+  ]
+}

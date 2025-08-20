@@ -1,0 +1,9 @@
+log*
+fuse*
+.idea
+*.dat
+vendor
+handlers/testdb*
+seed.json
+*.swp
+seedgen/*
