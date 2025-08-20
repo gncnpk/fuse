@@ -39,9 +39,11 @@ func HandleCmdDevelopServerItemRequest(ctx context.Context, msg *message.Message
 		// respond with error
 		resp := tppmessage.CmdDevelopServerItemResponse{
 			CryptoType: tppmessage.CRYPTO_TYPE_COMPOUND,
+			Flowid:     nil,
 			Msgid:      tppmessage.CMD_DEVELOP_SERVER_ITEM.String(),
 			Result:     tppmessage.RESULT_ERR,
 			Rqid:       t.Rqid,
+			Xuid: 		nil,
 		}
 		data, _ := json.Marshal(resp)
 		msg.MData = data
@@ -50,9 +52,11 @@ func HandleCmdDevelopServerItemRequest(ctx context.Context, msg *message.Message
 	// respond with success
 	resp := tppmessage.CmdDevelopServerItemResponse{
 		CryptoType: tppmessage.CRYPTO_TYPE_COMPOUND,
+		Flowid:     nil,
 		Msgid:      tppmessage.CMD_DEVELOP_SERVER_ITEM.String(),
 		Result:     tppmessage.RESULT_NOERR,
 		Rqid:       t.Rqid,
+		Xuid: 		nil,
 	}
 	data, err := json.Marshal(resp)
 	if err != nil {
