@@ -3,6 +3,7 @@ package sessionmanager
 import (
 	"context"
 	"fmt"
+	"time"
 	"github.com/unknown321/fuse/message"
 	"github.com/unknown321/fuse/tppmessage"
 	"log/slog"
@@ -12,7 +13,7 @@ import (
 func GetCmdGetServerItemResponse(ctx context.Context, msg *message.Message, manager *SessionManager) (tppmessage.CmdGetServerItemResponse, error) {
 	t := tppmessage.CmdGetServerItemResponse{}
 	t.CryptoType = tppmessage.CRYPTO_TYPE_COMPOUND
-	t.Msgid = tppmessage.CMD_GET_RESOURCE_PARAM.String()
+		t.Msgid = tppmessage.CMD_GET_SERVER_ITEM.String()
 	t.Result = tppmessage.RESULT_NOERR
 	t.Rqid = 0
 
@@ -27,15 +28,22 @@ func GetCmdGetServerItemResponse(ctx context.Context, msg *message.Message, mana
 		return t, fmt.Errorf("using dummy nuke info, error: %w", err)
 	}
 
-	t.Item = tppmessage.ServerItem{
-		CreateDate: item.CreateDate,
-		Develop:    item.Develop,
-		Gmp:        item.Gmp,
-		Id:         item.ProductID,
-		MaxSecond:  item.MaxSecond,
-		MbCoin:     item.MbCoin,
-		Open:       item.Open,
-	}
+	   // calculate remaining seconds
+	   now := int(time.Now().Unix())
+	   left := 0
+	   if item.Develop != 0 && (item.CreateDate+item.MaxSecond) > now {
+		   left = (item.CreateDate + item.MaxSecond) - now
+	   }
+	   t.Item = tppmessage.ServerItem{
+		   CreateDate: item.CreateDate,
+		   Develop:    item.Develop,
+		   Gmp:        item.Gmp,
+		   Id:         item.ProductID,
+		   LeftSecond: left,
+		   MaxSecond:  item.MaxSecond,
+		   MbCoin:     item.MbCoin,
+		   Open:       item.Open,
+	   }
 
 	return t, nil
 }

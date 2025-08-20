@@ -21,6 +21,13 @@ type ServerItem struct {
 	MaxSecond int
 }
 
+// UpdateDevelop sets the develop status for a server item record
+func (r *Repo) UpdateDevelop(ctx context.Context, playerID int, productID int, develop int) error {
+	q := fmt.Sprintf(`UPDATE %s SET develop = ? WHERE player_id = ? AND product_id = ?;`, TableName)
+	_, err := r.db.ExecContext(ctx, q, develop, playerID, productID)
+	return err
+}
+
 var TableName = "serverItem"
 
 type Repo struct {
@@ -57,7 +64,7 @@ func (r *Repo) Add(ctx context.Context, c *ServerItem) error {
 		return err
 	}
 
-	q := fmt.Sprintf(`INSERT INTO %s(
+		q := fmt.Sprintf(`INSERT OR REPLACE INTO %s(
 			product_id,
 			player_id,
 			create_date,

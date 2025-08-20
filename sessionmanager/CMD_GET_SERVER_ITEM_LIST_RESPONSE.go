@@ -29,9 +29,21 @@ func GetCmdGetServerItemListResponse(ctx context.Context, msg *message.Message, 
 
 	now := int(time.Now().Unix())
 	for _, v := range items {
+		   // determine develop status: 1 in-progress, 2 finished
+		   developVal := v.Develop
+		   finishTime := v.CreateDate + v.MaxSecond
+		   if v.Develop != 0 && now >= finishTime {
+			   developVal = 2
+			   // persist finished status
+			   if v.Develop != 2 {
+				   if err := manager.ServerItemRepo.UpdateDevelop(ctx, msg.PlayerID, v.ProductID, 2); err != nil {
+					   slog.Error("failed to persist develop status", "error", err.Error(), "playerID", msg.PlayerID, "productID", v.ProductID)
+				   }
+			   }
+		   }
 		q := tppmessage.ServerItemListEntry{
 			CreateDate: v.CreateDate,
-			Develop:    v.Develop,
+			Develop:    developVal,
 			Gmp:        v.Gmp,
 			ID:         v.ProductID,
 			LeftSecond: 0,

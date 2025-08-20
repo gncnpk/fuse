@@ -328,6 +328,8 @@ func (m *SessionManager) HandleRequest(ctx context.Context, msg *message.Message
 		err = HandleCmdGetServerItemListRequest(ctx, msg, m)
 	case tppmessage.CMD_GET_SERVER_ITEM:
 		err = HandleCmdGetServerItemRequest(ctx, msg, m)
+	case tppmessage.CMD_DEVELOP_SERVER_ITEM:
+		err = HandleCmdDevelopServerItemRequest(ctx, msg, m)
 	case tppmessage.CMD_CHECK_SERVER_ITEM_CORRECT:
 		err = HandleCmdCheckServerItemCorrectRequest(msg)
 	case tppmessage.CMD_GET_CHALLENGE_TASK_REWARDS:
@@ -523,7 +525,9 @@ func (m *SessionManager) HandleResponseFromKojiPro(ctx context.Context, message 
 		//case tppmessage.CMD_CALC_COST_FOB_DEPLOY_REPLACE:
 		//case tppmessage.CMD_GET_SERVER_ITEM_LIST:
 		//case tppmessage.CMD_GET_SERVER_ITEM:
-		//case tppmessage.CMD_DEVELOP_SERVER_ITEM:
+		   case tppmessage.CMD_DEVELOP_SERVER_ITEM:
+			   // no-op for develop request response
+			   return nil
 		//case tppmessage.CMD_SPEND_SERVER_WALLET:
 		//case tppmessage.CMD_CHECK_SERVER_ITEM_CORRECT:
 		//case tppmessage.CMD_DESTRUCT_ONLINE_NUCLEAR:
